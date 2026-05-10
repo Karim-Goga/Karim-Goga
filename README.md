@@ -1,16 +1,136 @@
-## Hi there 👋
+# Abdoul Karim Mamani Malam Goga
 
-<!--
-**Karim-Goga/Karim-Goga** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+**Cybersecurity & RF Compliance · Product Security · IoT & Radio Equipment · Regulatory Engineering**
 
-Here are some ideas to get you started:
+Head of Equipment Certification Department — ARCEP Niger
+Head of RF & Cybersecurity Laboratory -ARCEP Niger
+President, Cybersecurity Club ESPA-MT · High Representative, APSI-NE
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+[LinkedIn](https://www.linkedin.com/in/abdoul-karim-mamani-malam-goga/) · [Portfolio](https://karimgoga.com) · [Email](mailto:info@karimgoga.com)
+
+---
+
+## À propos
+
+Je construis un portfolio technique à l’intersection de l’**ingénierie radio**, de la **cybersécurité produit**, de la **conformité RF**, de la **sécurité IoT** et de l’**ingénierie réglementaire**.
+
+Avec 15 ans d’expérience dans les réseaux mobiles, la régulation du spectre, l’homologation des équipements et la gouvernance cybersécurité, mon travail porte sur la sécurité et la conformité des équipements connectés, radioélectriques et embarqués avant leur accès au marché.
+
+Je dirige actuellement le Département Homologation & Agrément ainsi que le Laboratoire d’homologation RF & cybersécurité de l’ARCEP Niger. Ma mission consiste à contribuer à l’évaluation et à la certification des équipements terminaux, IoT et radioélectriques, en intégrant progressivement des exigences de cybersécurité dans les procédures d’homologation.
+
+Mon parcours repose sur trois socles complémentaires :
+
+- **Ingénierie des réseaux mobiles** — planification radio, QoS, optimisation et supervision des réseaux 2G/3G/4G chez Moov Africa Niger et Orange Niger.
+- **Régulation technique et conformité RF** — gestion du spectre, contrôle des stations radioélectriques, évaluation de conformité des équipements et procédures d’homologation à l’ARCEP Niger.
+- **Cybersécurité produit et conformité réglementaire** — analyse de firmware, sécurité des mises à jour OTA, exposition des interfaces sans fil, analyse des risques cyber et alignement avec les cadres internationaux tels que la directive RED, les normes ETSI et le Cyber Resilience Act.
+
+Mon objectif est de rendre la cybersécurité produit et la conformité RF plus pratiques, mieux documentées et plus accessibles aux fabricants, régulateurs, laboratoires d’évaluation et acteurs des infrastructures critiques.
+
+---
+
+## Domaines de spécialisation
+
+### Cybersécurité produit & évaluation des équipements IoT
+
+- Évaluation de la sécurité des firmwares
+- Analyse statique de firmwares
+- Vérification de la sécurité des mécanismes de mise à jour OTA
+- Analyse de l’exposition des interfaces
+- Vérification de l’authentification, du chiffrement et de l’intégrité logicielle
+- Identification des vulnérabilités et suivi des recommandations de remédiation
+- Documentation de sécurité applicable aux équipements IoT
+
+Outils et méthodes :
+
+`Ghidra` · `binwalk` · `strings` · `YARA` · `Wireshark` · `Nmap` · `Nessus` · `Burp Suite` · `OWASP ZAP` · `Metasploit`
+
+---
+
+### Conformité RF & homologation des équipements radio
+
+- Évaluation de conformité des équipements radioélectriques
+- Workflows de tests RF et protocolaires
+- Évaluation des équipements en lien avec l’utilisation du spectre
+- Compatibilité électromagnétique et utilisation efficace du spectre
+- Analyse de la documentation technique
+- Procédures d’homologation et d’accès au marché
+
+Environnement technique :
+
+`Rohde & Schwarz CMW500` · `Rohde & Schwarz CMX500` · `CMWrun` · `Analyseurs de spectre` · `XArt` · Workflows de mesures RF et de conformité
+
+---
+
+### Cybersécurité réglementaire & gouvernance
+
+- Intégration d’exigences de cybersécurité dans les procédures d’homologation des équipements
+- Évaluation de conformité fondée sur les risques
+- Gouvernance cybersécurité appliquée aux équipements connectés et radioélectriques
+- Documentation cybersécurité et traçabilité des décisions
+- Correspondance entre contrôles techniques et exigences réglementaires
+
+Référentiels et cadres :
+
+`RED 2014/53/UE` · `Normes ETSI EN` · `Cyber Resilience Act` · `ISO/IEC 27001` · `NIST CSF` · `EBIOS RM` · `IEC 62443`
+
+---
+
+## Projets GitHub principaux
+
+| Dépôt | Objectif |
+|---|---|
+| [sec-firmware-analyzer](https://github.com/Karim-Goga/sec-firmware-analyzer) | Toolkit d’analyse statique de firmwares IoT : extraction d’artefacts, détection de chaînes sensibles, identification de services exposés, indicateurs de vulnérabilités et génération de rapports orientés conformité. |
+| [iot-radio-security-lab](https://github.com/Karim-Goga/iot-radio-security-lab) | Laboratoire documenté de tests de sécurité IoT et radio : analyses BLE, Wi-Fi, LoRaWAN et MQTT, avec correspondance vers les principes de sécurité de l’ETSI EN 303 645. |
+| [cra-compliance-toolkit](https://github.com/Karim-Goga/cra-compliance-toolkit) | Modèles, checklists et outils légers pour accompagner la préparation à la conformité au Cyber Resilience Act pour les fabricants d’équipements connectés. |
+| [cyberwatch-intelligence](https://github.com/Karim-Goga/cyberwatch-intelligence) | Notes de veille hebdomadaire sur la sécurité IoT, radio, embarquée, les vulnérabilités produit et les évolutions réglementaires en cybersécurité. |
+
+---
+
+## Travaux en cours
+
+- Construction d’un portfolio technique public sur la **cybersécurité produit**, la **conformité RF** et la **sécurité IoT**
+- Développement de laboratoires pratiques sur l’analyse firmware, la sécurité OTA, les interfaces sans fil et la conformité orientée CRA/ETSI
+- Rédaction de contenus techniques sur la cybersécurité des équipements connectés, la conformité réglementaire et la souveraineté numérique
+- Finalisation d’un Master en sécurité des systèmes d’information avec OpenClassrooms / Université de Technologie de Troyes
+- Publication de **CyberWatch**, une veille hebdomadaire sur l’IoT, les équipements radio, les systèmes embarqués et la sécurité des infrastructures critiques
+
+---
+
+## Parcours professionnel
+
+| Période | Fonction | Organisation |
+|---|---|---|
+| 2022 – Aujourd’hui | Chef du Département Homologation & Agrément | ARCEP Niger |
+| 2021 – 2022 | Chef de Service Conformité des Stations et Équipements RF | ARCEP Niger |
+| 2018 – 2021 | Technicien Gestion & Contrôle du Spectre | ARCEP Niger |
+| 2018 | Ingénieur Design Radio | Orange Niger |
+| 2013 – 2017 | Ingénieur Expert QoS & Optimisation Radio | Orange Niger |
+| 2011 – 2013 | Ingénieur QoS Radio | Moov Africa Niger |
+| 2011 | Technicien Supervision Réseau | Moov Africa Niger |
+
+---
+
+## Ce vers quoi je construis
+
+Ce profil GitHub accompagne ma transition vers des rôles internationaux dans les domaines suivants :
+
+- Product Security Engineering
+- Sécurité embarquée et IoT
+- Conformité RF et cybersécurité
+- Certification et évaluation de conformité des équipements
+- Cybersécurité réglementaire
+- Conseil technique appliqué aux infrastructures critiques et à la souveraineté numérique
+
+Mes environnements cibles incluent les industriels/OEM, les laboratoires de certification, les opérateurs télécoms, les entreprises de cybersécurité et les institutions internationales travaillant sur les équipements connectés, les systèmes radio et la cybersécurité produit.
+
+---
+
+## Me contacter
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Abdoul%20Karim%20Mamani%20Malam%20Goga-0077B5?style=flat&logo=linkedin)](https://www.linkedin.com/in/abdoul-karim-mamani-malam-goga/)
+[![Portfolio](https://img.shields.io/badge/Portfolio-karimgoga.com-1F3864?style=flat&logo=firefox)](https://karimgoga.com)
+[![Email](https://img.shields.io/badge/Email-info@karimgoga.com-333333?style=flat&logo=gmail)](mailto:info@karimgoga.com)
+
+---
+
+**Basé à Niamey, Niger — ouvert aux opportunités internationales en cybersécurité produit, conformité RF, sécurité embarquée, sécurité IoT et cybersécurité réglementaire.**
