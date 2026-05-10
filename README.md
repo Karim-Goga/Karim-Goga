@@ -2,8 +2,7 @@
 
 **Cybersecurity & RF Compliance · Product Security · IoT & Radio Equipment · Regulatory Engineering**
 
-Head of Equipment Certification Department — ARCEP Niger
-Head of RF & Cybersecurity Laboratory -ARCEP Niger
+**Head of Equipment Certification Department & RF and Cybersecurity Laboratory — ARCEP Niger**
 President, Cybersecurity Club ESPA-MT · High Representative, APSI-NE
 
 [LinkedIn](https://www.linkedin.com/in/abdoul-karim-mamani-malam-goga/) · [Portfolio](https://karimgoga.com) · [Email](mailto:info@karimgoga.com)
@@ -86,42 +85,86 @@ Référentiels et cadres :
 
 ---
 
-## Travaux en cours
+## Projet phare — Product Security Lab
 
-- Construction d’un portfolio technique public sur la **cybersécurité produit**, la **conformité RF** et la **sécurité IoT**
-- Développement de laboratoires pratiques sur l’analyse firmware, la sécurité OTA, les interfaces sans fil et la conformité orientée CRA/ETSI
-- Rédaction de contenus techniques sur la cybersécurité des équipements connectés, la conformité réglementaire et la souveraineté numérique
-- Finalisation d’un Master en sécurité des systèmes d’information avec OpenClassrooms / Université de Technologie de Troyes
-- Publication de **CyberWatch**, une veille hebdomadaire sur l’IoT, les équipements radio, les systèmes embarqués et la sécurité des infrastructures critiques
+**Product Security Lab** est mon chantier technique structurant consacré à la cybersécurité des équipements connectés, radioélectriques et embarqués.
+
+L’objectif est de produire des livrables publics, vérifiables et réutilisables autour de la **cybersécurité produit**, de la **conformité RF**, de l’**analyse firmware**, de la **sécurité des protocoles radio**, du **reverse engineering**, de la **gestion des vulnérabilités** et de la **conformité réglementaire**.
+
+Ce projet ne se limite pas à de la veille ou à de la documentation. Il vise à construire progressivement un ensemble cohérent de dépôts GitHub, rapports techniques, matrices de conformité, scripts d’analyse, playbooks de tests et études de cas applicables aux équipements IoT, radio et systèmes embarqués.
+
+### Axes structurants
+
+| Axe | Livrables attendus |
+|---|---|
+| Firmware & Software Supply Chain Security | Rapports d’analyse firmware, extraction d’artefacts, SBOM, détection de composants vulnérables, analyse des mécanismes de mise à jour |
+| IoT & Radio Security Lab | Scénarios de tests BLE, Wi-Fi, Zigbee, LoRaWAN, MQTT/CoAP, captures réseau annotées, playbooks de tests radio et sécurité |
+| RF & Equipment Compliance | Workflows de conformité RF, documentation de tests, matrices exigence ↔ test ↔ preuve, intégration des contraintes RED/ETSI |
+| Product Security & CRA Readiness | Checklists, modèles de dossiers techniques, matrices de conformité, exigences de sécurité produit, documentation orientée Cyber Resilience Act |
+| Reverse Engineering & Vulnerability Research | Analyses binaires, triage de vulnérabilités, patch-diff, fuzzing, rapports de risques et recommandations de remédiation |
+| Secure Boot, OTA & Embedded Trust | Études de cas sur l’intégrité logicielle, la chaîne de confiance, l’anti-rollback, la signature des firmwares et la sécurité des mises à jour |
+| OT, Automotive & Critical Systems Security | Threat modeling, sécurité des protocoles industriels, IEC 62443, ISO 21434, CAN/UDS, systèmes embarqués critiques |
+| PSIRT, Disclosure & Cyber Threat Intelligence | Veille CVE, analyse de vulnérabilités produit, processus PSIRT, fiches de remédiation, notes CyberWatch |
+| Open-Source Tooling & Technical Publications | Outils Python/Bash, automatisation d’analyses, articles techniques, whitepapers et documentation professionnelle |
+
+### Standard de documentation
+
+Chaque dépôt important suit une structure professionnelle :
+
+```text
+README.md        → synthèse, périmètre, stack technique, résultats
+lab_setup/       → architecture du lab, environnement, configurations
+data/            → captures, logs, hashes, artefacts anonymisés
+analysis/        → notes d’analyse, observations, findings techniques
+tools/           → scripts développés, documentation d’usage
+report/          → rapport final, recommandations, limites, preuves
+appendix/        → glossaire, références, mapping normes/CVE
 
 ---
 
-## Parcours professionnel
+Chaque livrable vise à être compréhensible par plusieurs profils : ingénieur produit, analyste sécurité, laboratoire de conformité, responsable GRC, régulateur technique ou décideur impliqué dans la sécurité des équipements connectés.
 
-| Période | Fonction | Organisation |
-|---|---|---|
-| 2022 – Aujourd’hui | Chef du Département Homologation & Agrément | ARCEP Niger |
-| 2021 – 2022 | Chef de Service Conformité des Stations et Équipements RF | ARCEP Niger |
-| 2018 – 2021 | Technicien Gestion & Contrôle du Spectre | ARCEP Niger |
-| 2018 | Ingénieur Design Radio | Orange Niger |
-| 2013 – 2017 | Ingénieur Expert QoS & Optimisation Radio | Orange Niger |
-| 2011 – 2013 | Ingénieur QoS Radio | Moov Africa Niger |
-| 2011 | Technicien Supervision Réseau | Moov Africa Niger |
+Référentiels et cadres utilisés
 
----
+RED 2014/53/UE · Normes ETSI EN · Cyber Resilience Act · ISO/IEC 27001 · NIST CSF · EBIOS RM · IEC 62443 · ISO 21434 · OWASP IoT · OWASP Firmware Security Testing Methodology
 
-## Ce vers quoi je construis
+Finalité
 
-Ce profil GitHub accompagne ma transition vers des rôles internationaux dans les domaines suivants :
+Avec Product Security Lab, je construis un corpus technique personnel centré sur une conviction simple : la sécurité des équipements connectés doit être démontrable, documentée, testable et alignée avec les exigences de conformité.
 
-- Product Security Engineering
-- Sécurité embarquée et IoT
-- Conformité RF et cybersécurité
-- Certification et évaluation de conformité des équipements
-- Cybersécurité réglementaire
-- Conseil technique appliqué aux infrastructures critiques et à la souveraineté numérique
+Ce projet reflète mon positionnement : relier l’ingénierie radio, la cybersécurité produit, la conformité réglementaire et la sécurité des infrastructures critiques.
 
-Mes environnements cibles incluent les industriels/OEM, les laboratoires de certification, les opérateurs télécoms, les entreprises de cybersécurité et les institutions internationales travaillant sur les équipements connectés, les systèmes radio et la cybersécurité produit.
+Travaux en cours
+Construction d’un portfolio technique public sur la cybersécurité produit, la conformité RF et la sécurité IoT
+Développement de laboratoires pratiques sur l’analyse firmware, la sécurité OTA, les interfaces sans fil et la conformité orientée CRA/ETSI
+Rédaction de contenus techniques sur la cybersécurité des équipements connectés, la conformité réglementaire et la souveraineté numérique
+Finalisation d’un Master en sécurité des systèmes d’information avec OpenClassrooms / Université de Technologie de Troyes
+Publication de CyberWatch, une veille hebdomadaire sur l’IoT, les équipements radio, les systèmes embarqués et la sécurité des infrastructures critiques.
+
+Parcours professionnel
+Période	Fonction	Organisation
+2022 – Aujourd’hui	Chef du Département Homologation & Agrément	ARCEP Niger
+2021 – 2022	Chef de Service Conformité des Stations et Équipements RF	ARCEP Niger
+2018 – 2021	Technicien Gestion & Contrôle du Spectre	ARCEP Niger
+2018	Ingénieur Design Radio	Orange Niger
+2013 – 2017	Ingénieur Expert QoS & Optimisation Radio	Orange Niger
+2011 – 2013	Ingénieur QoS Radio	Moov Africa Niger
+2011	Technicien Supervision Réseau	Moov Africa Niger
+Ce vers quoi je construis
+
+Ce profil GitHub accompagne la structuration progressive d’un corpus technique autour de la sécurité des équipements connectés, radioélectriques et embarqués.
+
+Les axes de construction portent sur :
+
+Cybersécurité produit
+Sécurité embarquée et IoT
+Conformité RF et cybersécurité
+Certification et évaluation de conformité des équipements
+Cybersécurité réglementaire
+Sécurité des infrastructures critiques
+Documentation technique, rapports d’analyse et outils open-source
+
+L’objectif est de relier les exigences réglementaires, les tests techniques, l’analyse des risques et les preuves opérationnelles dans une démarche cohérente, documentée et réutilisable.
 
 ---
 
@@ -133,4 +176,4 @@ Mes environnements cibles incluent les industriels/OEM, les laboratoires de cert
 
 ---
 
-**Basé à Niamey, Niger — ouvert aux opportunités internationales en cybersécurité produit, conformité RF, sécurité embarquée, sécurité IoT et cybersécurité réglementaire.**
+**Basé à Niamey, Niger — cybersécurité produit, conformité RF, sécurité IoT, équipements radio et ingénierie réglementaire.**
