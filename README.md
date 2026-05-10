@@ -2,7 +2,7 @@
 
 **Cybersecurity & RF Compliance · Product Security · IoT & Radio Equipment · Regulatory Engineering**
 
-**Head of Equipment Certification Department & RF and Cybersecurity Laboratory — ARCEP Niger**
+**Head of Equipment Certification Department & RF/Cybersecurity Laboratory — ARCEP Niger**  
 President, Cybersecurity Club ESPA-MT · High Representative, APSI-NE
 
 [LinkedIn](https://www.linkedin.com/in/abdoul-karim-mamani-malam-goga/) · [Portfolio](https://karimgoga.com) · [Email](mailto:info@karimgoga.com)
