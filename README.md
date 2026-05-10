@@ -111,58 +111,67 @@ Ce projet ne se limite pas à de la veille ou à de la documentation. Il vise à
 
 Chaque dépôt important suit une structure professionnelle :
 
-```text
-README.md        → synthèse, périmètre, stack technique, résultats
-lab_setup/       → architecture du lab, environnement, configurations
-data/            → captures, logs, hashes, artefacts anonymisés
-analysis/        → notes d’analyse, observations, findings techniques
-tools/           → scripts développés, documentation d’usage
-report/          → rapport final, recommandations, limites, preuves
-appendix/        → glossaire, références, mapping normes/CVE
-
----
+| Élément | Contenu |
+|---|---|
+| `README.md` | Synthèse du projet, périmètre, stack technique, résultats et liens vers les livrables |
+| `lab_setup/` | Architecture du lab, environnement de test, configurations et scripts d’installation |
+| `data/` | Captures, logs, hashes et artefacts anonymisés, sans secrets ni données sensibles |
+| `analysis/` | Notes d’analyse, observations techniques, résultats intermédiaires et findings |
+| `tools/` | Scripts Python/Bash développés pour l’analyse, avec documentation d’usage |
+| `report/` | Rapport final, recommandations, limites de l’évaluation et éléments de preuve |
+| `appendix/` | Glossaire, références, mapping normes/CVE et ressources complémentaires |
 
 Chaque livrable vise à être compréhensible par plusieurs profils : ingénieur produit, analyste sécurité, laboratoire de conformité, responsable GRC, régulateur technique ou décideur impliqué dans la sécurité des équipements connectés.
 
-Référentiels et cadres utilisés
+### Référentiels et cadres utilisés
 
-RED 2014/53/UE · Normes ETSI EN · Cyber Resilience Act · ISO/IEC 27001 · NIST CSF · EBIOS RM · IEC 62443 · ISO 21434 · OWASP IoT · OWASP Firmware Security Testing Methodology
+`RED 2014/53/UE` · `Normes ETSI EN` · `Cyber Resilience Act` · `ISO/IEC 27001` · `NIST CSF` · `EBIOS RM` · `IEC 62443` · `ISO 21434` · `OWASP IoT` · `OWASP Firmware Security Testing Methodology`
 
-Finalité
+### Finalité
 
-Avec Product Security Lab, je construis un corpus technique personnel centré sur une conviction simple : la sécurité des équipements connectés doit être démontrable, documentée, testable et alignée avec les exigences de conformité.
+Avec **Product Security Lab**, je construis un corpus technique personnel centré sur une conviction simple : la sécurité des équipements connectés doit être démontrable, documentée, testable et alignée avec les exigences de conformité.
 
 Ce projet reflète mon positionnement : relier l’ingénierie radio, la cybersécurité produit, la conformité réglementaire et la sécurité des infrastructures critiques.
 
-Travaux en cours
-Construction d’un portfolio technique public sur la cybersécurité produit, la conformité RF et la sécurité IoT
-Développement de laboratoires pratiques sur l’analyse firmware, la sécurité OTA, les interfaces sans fil et la conformité orientée CRA/ETSI
-Rédaction de contenus techniques sur la cybersécurité des équipements connectés, la conformité réglementaire et la souveraineté numérique
-Finalisation d’un Master en sécurité des systèmes d’information avec OpenClassrooms / Université de Technologie de Troyes
-Publication de CyberWatch, une veille hebdomadaire sur l’IoT, les équipements radio, les systèmes embarqués et la sécurité des infrastructures critiques.
+---
 
-Parcours professionnel
-Période	Fonction	Organisation
-2022 – Aujourd’hui	Chef du Département Homologation & Agrément	ARCEP Niger
-2021 – 2022	Chef de Service Conformité des Stations et Équipements RF	ARCEP Niger
-2018 – 2021	Technicien Gestion & Contrôle du Spectre	ARCEP Niger
-2018	Ingénieur Design Radio	Orange Niger
-2013 – 2017	Ingénieur Expert QoS & Optimisation Radio	Orange Niger
-2011 – 2013	Ingénieur QoS Radio	Moov Africa Niger
-2011	Technicien Supervision Réseau	Moov Africa Niger
-Ce vers quoi je construis
+## Travaux en cours
+
+- Construction d’un portfolio technique public sur la **cybersécurité produit**, la **conformité RF** et la **sécurité IoT**
+- Développement de laboratoires pratiques sur l’analyse firmware, la sécurité OTA, les interfaces sans fil et la conformité orientée CRA/ETSI
+- Rédaction de contenus techniques sur la cybersécurité des équipements connectés, la conformité réglementaire et la souveraineté numérique
+- Finalisation d’un Master en sécurité des systèmes d’information avec OpenClassrooms / Université de Technologie de Troyes
+- Publication de **CyberWatch**, une veille hebdomadaire sur l’IoT, les équipements radio, les systèmes embarqués et la sécurité des infrastructures critiques
+
+---
+
+## Parcours professionnel
+
+| Période | Fonction | Organisation |
+|---|---|---|
+| 2022 – Aujourd’hui | Chef du Département Homologation & Agrément | ARCEP Niger |
+| 2021 – 2022 | Chef de Service Conformité des Stations et Équipements RF | ARCEP Niger |
+| 2018 – 2021 | Technicien Gestion & Contrôle du Spectre | ARCEP Niger |
+| 2018 | Ingénieur Design Radio | Orange Niger |
+| 2013 – 2017 | Ingénieur Expert QoS & Optimisation Radio | Orange Niger |
+| 2011 – 2013 | Ingénieur QoS Radio | Moov Africa Niger |
+| 2011 | Technicien Supervision Réseau | Moov Africa Niger |
+
+---
+
+## Ce vers quoi je construis
 
 Ce profil GitHub accompagne la structuration progressive d’un corpus technique autour de la sécurité des équipements connectés, radioélectriques et embarqués.
 
 Les axes de construction portent sur :
 
-Cybersécurité produit
-Sécurité embarquée et IoT
-Conformité RF et cybersécurité
-Certification et évaluation de conformité des équipements
-Cybersécurité réglementaire
-Sécurité des infrastructures critiques
-Documentation technique, rapports d’analyse et outils open-source
+- Cybersécurité produit
+- Sécurité embarquée et IoT
+- Conformité RF et cybersécurité
+- Certification et évaluation de conformité des équipements
+- Cybersécurité réglementaire
+- Sécurité des infrastructures critiques
+- Documentation technique, rapports d’analyse et outils open-source
 
 L’objectif est de relier les exigences réglementaires, les tests techniques, l’analyse des risques et les preuves opérationnelles dans une démarche cohérente, documentée et réutilisable.
 
