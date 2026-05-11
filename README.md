@@ -111,15 +111,7 @@ Ce projet ne se limite pas à de la veille ou à de la documentation. Il vise à
 
 Chaque dépôt important suit une structure professionnelle :
 
-| Élément | Contenu |
-|---|---|
-| `README.md` | Synthèse du projet, périmètre, stack technique, résultats et liens vers les livrables |
-| `lab_setup/` | Architecture du lab, environnement de test, configurations et scripts d’installation |
-| `data/` | Captures, logs, hashes et artefacts anonymisés, sans secrets ni données sensibles |
-| `analysis/` | Notes d’analyse, observations techniques, résultats intermédiaires et findings |
-| `tools/` | Scripts Python/Bash développés pour l’analyse, avec documentation d’usage |
-| `report/` | Rapport final, recommandations, limites de l’évaluation et éléments de preuve |
-| `appendix/` | Glossaire, références, mapping normes/CVE et ressources complémentaires |
+`README.md` · `lab_setup/` · `data/` · `analysis/` · `tools/` · `report/` · `appendix/`
 
 Chaque livrable vise à être compréhensible par plusieurs profils : ingénieur produit, analyste sécurité, laboratoire de conformité, responsable GRC, régulateur technique ou décideur impliqué dans la sécurité des équipements connectés.
 
